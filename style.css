@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap');
+
+* {
+	box-sizing: border-box;
+	padding: 0;
+	margin: 0;
+	font-family: 'Poppins', sans-serif;
+}
+
+body {
+	background-image: url("https://www.appstudio.ca/blog/wp-content/uploads/2020/09/Modern-Software-Development.jpg");
+	background-attachment: fixed;
+	background-size: cover;
+	background-repeat: no-repeat;
+}
+
+header {
+	text-align: center;
+	margin-top: 1em;
+	color: white;
+}
+
+header h1 {
+	display: inline-block;
+	font-family: a, sans-serif;
+	font-size: 3.5em;
+	color:  white;
+	font-family: 'Permanent Marker', cursive;
+}
+
+header h2 {
+	font-family: 'Smooch', cursive;
+	font-size: 2em;
+}
+
+.form {
+	display: flex;
+	justify-content:center;
+	align-items:center;
+	margin-top: 1em;
+}
+
+form {
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	border-radius: 5px;
+	box-shadow: rgba(0, 0, 0, 0.45) 0px 5px 15px;
+}
+
+.form input,select {
+	width: 28em;
+	height: 2.5em;
+	border: none;
+}
+
+.form input {
+	padding-left: 0.5em;
+	padding-right: 0.5em;
+}
+
+.form label {
+	font-size:1em;
+	color: white;
+	font-weight: bold;
+}
+
+.form div {
+	margin: 1em;
+}
+
+.submit {
+	display: flex;
+	justify-content:center;
+}
+
+.form #submit {
+	width: 8em;
+	height: 1.6em;
+	padding-left:0.3em;
+	padding-right:0.1em;
+	font-size:1.5em;
+	font-family: 'Permanent Marker', cursive;
+	border-radius: 5px;
+	border: none;
+	color: white;
+	background-color: #0093E9;
+	transition: all 0.5s ease;
+}
+
+.form #submit:hover {
+	transform: scale(1.1);
+}
+
+.alokator {
+	margin-top: 2em;
+	margin-bottom: 2em;
+	display: none;
+	justify-content: space-evenly;
+	align-items: flex-start;
+	flex-wrap: wrap;
+}
+
+.alokator div {
+	margin-top: 1em;
+}
+
+.alokator div h3 {
+	color: white;
+	padding: 0.2em;
+	background-color: #0093E9;
+	background-image: linear-gradient(160deg, #0093E9 0%, #80D0C7 100%);
+	border-top-left-radius: 5px;
+	border-top-right-radius: 5px;
+}
+
+.alokator h4,ol {
+	background-color: white;
+	color: #08547B;
+	text-align: center;
+}
+
+.alokator ol {
+	border-bottom-left-radius: 5px;
+	border-bottom-right-radius: 5px;
+	list-style: none;
+}
+
+.alokator h4 {
+	padding: 0.3em;
+}
+
+.alokator ol li {
+	padding: 0.2em;
+}
+
+.alokator span {
+	background-color: #0093E9;
+}

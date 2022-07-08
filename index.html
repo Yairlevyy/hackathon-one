@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Alokator</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+	<header>
+		<h1 id="logo">ALOKATOR</h1>
+		<h2 id="pitch">Make The Most of Your Money</h2>
+	</header>
+
+
+
+	<section class="form">
+
+		<form>
+
+			<div class="fullname">
+				<label for="fullname">FULL NAME*</label><br>
+				<input type="text" name="fullname" id="fullname" placeholder="Your first and last name" required>
+			</div>
+
+			<div class="email">
+				<label for="email">EMAIL*</label><br>
+				<input type="email" name="email" id="email" placeholder="example@gmail.com" required>
+			</div>
+
+			<div class="field">
+
+				<label for="field">IN WHAT FIELD DO YOU WORK?*</PROJECT></label><br>
+
+				<select name="field" id="field" required>
+
+					<option value="select">Select</option>
+					<option value="arts">Arts, culture and entertainment</option>
+					<option value="business">Business, management and administration</option>
+					<option value="communications">Communications</option>
+					<option value="education">Education</option>
+					<option value="science">Science and technology</option>
+					<option value="government">Government</option>
+					<option value="health">Health and medicine</option>
+					<option value="law">Law and public policy</option>
+					<option value="sales">Sales</option>
+					<option value="other">Other</option>
+
+				</select>
+
+			</div>
+
+
+			<div class="netincome">
+
+				<label for="netincome">WHAT IS YOUR MONTHLY NET INCOME?*</label><br>
+
+				<select name="netincome" id="netincome" required>
+
+					<option value="select">Select</option>
+					<option value="less2500">Less than $2,500</option>
+					<option value="2500-5000">$2,500 - $5,000</option>
+					<option value="5000-15000">$5,000 - $15,000</option>
+					<option value="15000-25000">$15,000 - $25,000</option>
+					<option value="more25000">More than $25,000</option>
+
+				</select>
+
+			</div>
+
+			<div class="amount">
+				<label for="amount">AMOUNT OF YOUR MONTHLY SAVINGS (in $)*</label><br>
+				<input type="number" name="amount" id="amount" min="250" placeholder="1000 (accept only numbers without $)"required>
+			</div>
+
+			<div class="submit">
+
+				<input type="submit" value="INVEST 🚀" id="submit">
+
+			</div>
+
+		</form>
+
+	</section>
+
+
+
+
+<a id="alokator">
+	<section class="alokator">
+
+		<div class="realestate">
+
+			<h3>You should invest <span id="amountre"></span> a month in <span id="fieldname">REAL ESTATE</span></h3>
+
+			<h4>5 Things to Look for Before Investing</h4>
+
+			<ol>
+
+				<li>Neighborhood</li>
+				<li>Home style and size</li>
+				<li>Home amenities</li>
+				<li>Taxes and cost of living</li>
+				<li>Homeowners association (if applicable)</li>
+
+			</ol>
+
+		</div>
+
+		<div class="stocksmarket">
+
+			<h3>You should invest <span id="amountsm"></span> a month in the <span id="fieldname">STOCKS MARKET</span></h3>
+
+			<h4>Current Top 5 Stocks</h4>
+
+			<ol>
+
+				<li>Amazon.com (NASDAQ:AMZN)</li>
+				<li>Google.com parent Alphabet (NASDAQ:GOOGL)</li>
+				<li>Walt Disney (NASDAQ:DIS)</li>
+				<li>Occidental Petroleum Corp (NASDAQ:OXY)</li>
+				<li>Airbnb (NASDAQ:ABNB)</li>
+
+			</ol>
+
+		</div>
+
+		<div class="luxurywatches">
+
+			<h3>You should invest <span id="amountlw"></span> a month in <span id="fieldname">LUXURY WATCHES</span></h3>
+
+			<h4>Current Top 5 Brands</h4>
+
+			<ol>
+
+				<li>Rolex (All Professional Models)</li></li>
+				<li>Audemars Piguet ("Royal Oak" Models)</li>
+				<li>Vacheron Constantin ("Overseas" Models)</li>
+				<li>Patek Philippe (All "Nautilius" Models)</li>
+				<li>Richard Mille (All Men's Models) </li>
+
+			</ol>
+
+		</div>
+
+	</section>
+</a>
+
+<script src="script.js">
+</script>
+</body>
+</html>
+
